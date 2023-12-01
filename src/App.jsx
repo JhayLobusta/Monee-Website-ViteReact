@@ -36,22 +36,12 @@ const App = () => {
     <p className="text-md text-gray-600">Effortlessly keep tabs on your finances, whether it's tracking your expenses and income, setting budgets, or saving for your money goals, especially handy when abroad or working internationally!</p>
     <div className="flex flex-row space-x-8">
       <a href="#" className="button-container">
-        <div className="overlay bg-gradient-to-r from-slate-950 to-slate-950 hover:from-slate-950 hover:to-lime-700"><svg className='w-6 h-6 mr-2' xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path fill="#ffffff" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>Coming Soon</div>
+        <div className="overlay bg-gradient-to-r transition-all duration-400 ease-in-out from-slate-950 to-slate-950 hover:from-slate-950 hover:to-lime-700"><svg className='w-6 h-6 mr-2' xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path fill="#ffffff" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>Coming Soon</div>
       </a>
       <a href="#" className="button-container">
-        <div className="overlay bg-gradient-to-r from-slate-950 to-slate-950 hover:from-slate-950 hover:to-blue-700"><svg className='w-8 h-8 mr-2 mb-1' xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512"><path fill="#ffffff" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>Coming Soon</div>
+        <div className="overlay bg-gradient-to-r transition-all duration-400 ease-in-out from-slate-950 to-slate-950 hover:from-slate-950 hover:to-blue-700"><svg className='w-8 h-8 mr-2 mb-1' xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512"><path fill="#ffffff" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>Coming Soon</div>
       </a>
     </div>
-    {/* <div className="flex flex-row space-x-8">
-      <a href="#" className="button-container">
-        <img src={googleLogo} alt="Google Logo" />
-        <div className="overlay"><svg className='w-6 h-6' xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path fill="#ffffff" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>Coming Soon</div>
-      </a>
-      <a href="#" className="button-container">
-        <img src={appleLogo} alt="Apple Logo" />
-        <div className="overlay"><svg className='w-8 h-8' xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512"><path fill="#ffffff" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>Coming Soon</div>
-      </a>
-    </div> */}
   </div>
   
 
@@ -169,25 +159,6 @@ const App = () => {
 
   </div>
 </section>
-{/* <section class="bg-white dark:bg-slate-50">
-  <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-      <figure class="max-w-screen-md mx-auto">
-          <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
-          </svg> 
-          <blockquote>
-              <p class="text-2xl font-medium text-gray-900">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
-          </blockquote>
-          <figcaption class="flex items-center justify-center mt-6 space-x-3">
-              <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture"/>
-              <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                  <div class="pr-3 font-medium text-gray-900">Micheal Gough</div>
-                  <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">CEO at Google</div>
-              </div>
-          </figcaption>
-      </figure>
-  </div>
-</section> */}
 <Footer />
       </div>
     </>
