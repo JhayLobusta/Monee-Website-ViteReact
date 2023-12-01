@@ -1,0 +1,57 @@
+.img-logo{ /* Header-logo*/
+    width: 2.4375rem;
+    height: 2.4375rem;
+    margin-right: 1.56rem;
+    flex-shrink: 0;
+  }
+  .hero-image {/* Phone-Mockup*/
+    width: 24.3125rem;
+    height: 45.0625rem;
+    z-index: 3;
+    transition-duration: 500ms;
+  }
+  .hero-image:hover {
+    width: 24.9375rem;
+    height: 46.1875rem;
+    transition-duration: 500ms;
+  }
+  .circle-back{
+    width: 38rem;
+    height: 38rem;
+    border-radius: 20.25rem;
+    background: #c8fbd5;
+    opacity: 60%;
+    z-index: 1;
+  }
+  
+  .circle-front{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 20.25rem;
+    background: #a2f5a9;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  p{
+    color: #000;
+    font-family: Rubik;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  h1 {
+    margin-bottom: 2rem;
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
