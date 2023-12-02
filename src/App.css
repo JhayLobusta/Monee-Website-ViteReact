@@ -8,22 +8,33 @@
 }
 
 .circle-back{
+  position: relative;
   width: 38rem;
   height: 38rem;
   border-radius: 20.25rem;
-  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .circle-front{
+  position: absolute;
   width: 30rem;
   height: 30rem;
   border-radius: 20.25rem;
-  position: absolute;
-  z-index: 2;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+.hero-image {
+  width: 24.3125rem;
+  height: 45.0625rem;
+  transition-duration: 500ms;
+}
+.hero-image:hover {
+  width: 24.9375rem;
+  height: 46.1875rem;
+  transition-duration: 500ms;
 }
  
 .circle{
@@ -34,18 +45,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-.hero-image {
-  position: absolute;
-  width: 24.3125rem;
-  height: 45.0625rem;
-  z-index: 3;
-  transition-duration: 500ms;
-}
-.hero-image:hover {
-  width: 24.9375rem;
-  height: 46.1875rem;
-  transition-duration: 500ms;
 }
 
 .hero-image-small-2 {
