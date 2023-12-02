@@ -29,7 +29,7 @@ const App = () => {
 </nav>
 </header>
 
-<section className="flex flex-col lg:flex-row items-center gap-8 sm:gap-0 mt-24 space-y-48 sm:space-y-32 lg:space-y-0 lg:space-x-4">
+<section className="flex flex-col lg:flex-row items-center gap-8 sm:gap-0 mt-24 space-y-12 sm:space-y-32 lg:space-y-0 lg:space-x-4">
   
   <div className="flex-1 space-y-16 md:space-y-12">
     <h1 className="text-5xl font-medium mb-4 text-black leading-tight">Your Personal Financial Sidekick!</h1>
@@ -45,9 +45,10 @@ const App = () => {
   </div>
   
   <div className="flex-1 text-left flex items-center justify-center">
+  <img src={mobileMockup} alt="mockup" className="block sm:hidden"/>
             <div className="circle-back bg-slate-100 hidden sm:flex">
             </div>
-            <div className="circle-front bg-transparent sm:bg-slate-300 relative sm:absolute">
+            <div className="circle-front bg-transparent sm:bg-slate-300 relative sm:absolute hidden sm:flex">
               <img src={mobileMockup} alt="mockup" className="hero-image" />
             </div>
             
@@ -56,7 +57,7 @@ const App = () => {
 </div>
 
 
-<section className='mt-48 sm:mt-28 lg:mt-0 py-32 border-t border-gray-200'>
+<section className='mt-16 sm:mt-28 lg:mt-0 py-32 border-t border-gray-200'>
     <div class="flex justify-start">
       <h2 class="text-2xl font-semibold tracking-tight text-gray-900 sm:text-2xl">Discover the Power of Monee</h2>
     </div>
@@ -75,7 +76,7 @@ const App = () => {
           
         </div>
           
-          <p class="mt-5 ml-10 line-clamp-3 text-md leading-6 text-gray-600">Monee simplifies money management, effortlessly tracking expenses and income, while also helping you set budgets and achieve your financial goals seamlessly.</p>
+          <p class="mt-5 ml-10 text-md leading-6 text-gray-600">Monee simplifies money management, effortlessly tracking expenses and income, while also helping you set budgets and achieve your financial goals seamlessly.</p>
         </div>
         
       </article>
@@ -94,7 +95,7 @@ const App = () => {
           <a class="rounded-full px-3 py-1.5 text-slate-50 bg-cyan-500">Feature</a>
         </div>
           
-          <p class="mt-5 ml-10 line-clamp-3 text-md leading-6 text-gray-600">Going abroad or working with international clients? We've got you covered! What's even more incredible is that Monee's currency converter works seamlessly offline.</p>
+          <p class="mt-5 ml-10 text-md leading-6 text-gray-600">Going abroad or working with international clients? We've got you covered! What's even more incredible is that Monee's currency converter works seamlessly offline.</p>
         </div>
         
       </article>
@@ -112,7 +113,7 @@ const App = () => {
           <a class="rounded-full px-3 py-1.5 text-slate-50 bg-violet-400">Design</a>
         </div>
           
-          <p class="mt-5 ml-10 line-clamp-3 text-md leading-6 text-gray-600">Make your money management uniquely yours with Monee! Choose from lots of colors and icons to match your style and personalize your financial experience.</p>
+          <p class="mt-5 ml-10 text-md leading-6 text-gray-600">Make your money management uniquely yours with Monee! Choose from lots of colors and icons to match your style and personalize your financial experience.</p>
         </div>
         
       </article>
@@ -130,7 +131,7 @@ const App = () => {
           <a class="rounded-full px-3 py-1.5 text-slate-50 bg-amber-400">Price</a>
         </div>
           
-          <p class="mt-5 ml-10 line-clamp-3 text-md leading-6 text-gray-600">Monee offers a free version and not only affordable, but it's also ad-free. No interruptions, just a seamless and focused experience as you take control of your finances.</p>
+          <p class="mt-5 ml-10 text-md leading-6 text-gray-600">Monee offers a free version and not only affordable, but it's also ad-free. No interruptions, just a seamless and focused experience as you take control of your finances.</p>
         </div>
       </article>
     </div>
@@ -144,7 +145,7 @@ const App = () => {
             </div>
   </div>
   <div className="flex-1 space-y-12">
-  <h2 class="text-2xl font-semibold tracking-tight text-gray-900 sm:text-2xl">Drop a line to the awesome dev!</h2>
+  <h2 class="text-2xl font-semibold tracking-tight text-gray-900 sm:text-2xl">Drop a line to the awesome devs!</h2>
     <p className="text-md text-gray-600">Send us a message for collaboration and inquiries. Watch your ideas come to life as we build something extraordinary together!</p>
     <button class="relative group overflow-hidden px-8 h-14 rounded-full flex space-x-2 items-center bg-gradient-to-r transition duration-300 from-slate-950 to-slate-950 hover:from-slate-950 hover:to-cyan-700">
           <span class="relative text-sm text-white">Send Email</span>
