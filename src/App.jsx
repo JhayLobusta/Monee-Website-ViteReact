@@ -136,7 +136,7 @@ const App = () => {
       </article>
     </div>
 </section>
-<section className="flex flex-col lg:flex-row items-center gap-8 border-t border-gray-200 pt-28 pb-20 space-y-16 md:space-y-12">
+{/* <section className="flex flex-col lg:flex-row items-center gap-8 border-t border-gray-200 pt-28 pb-20 space-y-16 md:space-y-12">
 <div className="flex-1 text-left flex items-center justify-center">
             <div className="circle-back-small bg-slate-100 hidden sm:flex"></div>
             <div className="circle-front-small bg-transparent sm:bg-slate-300 relative sm:absolute">
@@ -158,7 +158,7 @@ const App = () => {
         </button>
 
   </div>
-</section>
+</section> */}
 <Footer />
       </div>
     </>
