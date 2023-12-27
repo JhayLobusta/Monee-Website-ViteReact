@@ -32,7 +32,7 @@ const App = () => {
 <section className="flex flex-col lg:flex-row items-center gap-8 sm:gap-0 mt-24 space-y-12 sm:space-y-32 lg:space-y-0 lg:space-x-4">
   
   <div className="flex-1 space-y-16 md:space-y-12">
-    <h1 className="text-5xl font-medium mb-4 text-black leading-tight">Your Personal Financial Sidekick!</h1>
+    <h1 className="text-5xl font-medium mb-4 text-black leading-tight">Privacy Policy</h1>
     <p className="text-md text-gray-600">Effortlessly keep tabs on your finances, whether it's tracking your expenses and income, setting budgets, or saving for your money goals, especially handy when abroad or working internationally!</p>
     <div className="flex flex-col md:flex-row space-x-0 md:space-x-8 space-y-8 md:space-y-0">
       <a href="#" className="button-container">
