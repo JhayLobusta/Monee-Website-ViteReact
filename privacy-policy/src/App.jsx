@@ -18,8 +18,8 @@ const App = () => {
 
   
   <div class="flex space-x-4">
-    <a href="#"><i className="text-slate-950 hover:text-blue-700 fa-brands fa-facebook-f"></i></a>
-    <a href="#"><i className="text-slate-950 hover:text-blue-700 fa-brands fa-discord"></i></a>
+    <a href="https://www.facebook.com/monee.ph/"  target='_blank' ><i className="text-slate-950 hover:text-blue-700 fa-brands fa-facebook-f"></i></a>
+    <a href="https://discord.gg/CSkFTPYJEf" target='_blank' ><i className="text-slate-950 hover:text-blue-700 fa-brands fa-discord"></i></a>
   </div>
 </nav>
 </header>
