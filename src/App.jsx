@@ -16,7 +16,7 @@ const App = () => {
   <header>
     <nav className="flex justify-between items-center">
   
-    <a href='moneeph.com'>
+    <a href='#'>
   <div className="flex items-center text-left">
     <img src={moneeLogoBlack} alt="Logo" className="h-10 w-10 mr-6"/>
     <span className="text-2xl font-semibold text-black">Monee</span>
