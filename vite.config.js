@@ -10,7 +10,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        privacy: resolve(__dirname, '/privacy-policy/index.html'),
+        privacy: resolve(__dirname, 'privacy-policy/index.html'),
       }
     }
   }

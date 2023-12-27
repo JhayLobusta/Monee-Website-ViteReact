@@ -3,7 +3,7 @@ export default {
   content: [
     "./index.html",
     "./privacy-policy/index.html",
-    "./privacy-policy/*.{js,ts,jsx,tsx}",
+    "./privacy-policy/src/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
