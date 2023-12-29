@@ -3,6 +3,8 @@ import moneeLogoBlack from './assets/monee-logo.png';
 
 import { Container } from 'postcss';
 
+const currentYear = new Date().getFullYear();
+
 const App = () => {
   return (
     <>
@@ -36,14 +38,14 @@ const App = () => {
 
 
 <section className='mt-4 sm:mt-4 lg:mt-0 py-16 border-t border-gray-200'>
-    <h3 className="text-lg font-semibold leading-6 text-gray-900 mb-6"><a>Last Updated: September 12, 2023</a></h3>
+    <h3 className="text-lg font-semibold leading-6 text-gray-900 mb-6"><a>Last Updated: December 28, 2023</a></h3>
     <p className="text-md text-gray-600 mb-11">I, the developer of Monee ("I," "me," or "my"), respect your privacy and am committed to protecting your personal information. This Privacy Policy explains how I collect, use, disclose, and safeguard your information when you use my mobile application ("the App"). By downloading, installing, or using the App, you consent to the practices described in this Privacy Policy.</p>
 
     <h3 className="text-lg font-semibold leading-6 text-gray-900 mb-6"><a>Information I Collect</a></h3>
     <p className="text-md text-gray-600 mb-11">I do not collect any personal information from you when you use my App. I do not require you to register, log in, or provide any personal data, such as your name, email address, phone number, or location.</p>
 
     <h3 className="text-lg font-semibold leading-6 text-gray-900 mb-6"><a>Information Stored on Your Device</a></h3>
-    <p className="text-md text-gray-600 mb-1">The App may store information locally on your device, including but not limited to:</p>
+    <p className="text-md text-gray-600 mb-4">The App may store information locally on your device, including but not limited to:</p>
     <p className="text-md text-gray-600 mb-11">1. **User-generated Content:** Any data or information you input into the App will be stored on your device for the sole purpose of providing you with the functionality of the App. This may include text, images, or other content created by you.</p>
 
     <h3 className="text-lg font-semibold leading-6 text-gray-900 mb-6"><a>How I Use Your Information</a></h3>
@@ -56,12 +58,12 @@ const App = () => {
     <p className="text-md text-gray-600 mb-11">I may update this Privacy Policy from time to time to reflect changes in my practices or for other operational, legal, or regulatory reasons. I will post the updated Privacy Policy on this page, and the date of the latest revision will be noted at the top of the page. I encourage you to review this Privacy Policy periodically.</p>
 
     <h3 className="text-lg font-semibold leading-6 text-gray-900 mb-6"><a>Contact Me</a></h3>
-    <p className="text-md text-gray-600 mb-1">If you have any questions or concerns about this Privacy Policy or my data practices, please contact me at contact.jlobusta@gmail.com.</p>
+    <p className="text-md text-gray-600 mb-4">If you have any questions or concerns about this Privacy Policy or my data practices, please contact me at contact.jlobusta@gmail.com.</p>
     <p className="text-md text-gray-600 mb-0">By using my App, you acknowledge that you have read, understood, and agree to the terms of this Privacy Policy. If you do not agree with this Privacy Policy, please do not use the App.</p>
 </section>
 <div className="flex flex-col-reverse justify-between pt-12 pb-12 border-t border-gray-200 lg:flex-row">
         <p className="text-sm text-gray-600">
-        Monee © Copyright 2023 All rights reserved.
+        Monee © Copyright {currentYear} All rights reserved.
         </p>
         <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
           
@@ -69,10 +71,10 @@ const App = () => {
             <a href="./privacy-policy/" className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Privacy Policy</a>
           </li> */}
           <li>
-            <a href="#" className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Updates & Change Policy</a>
+            <a href="../update-change-policy/" className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Updates & Change Policy</a>
           </li>
           <li>
-            <a href="#" className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Terms &amp; Conditions</a>
+            <a href="../terms-conditions/" className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Terms &amp; Conditions</a>
           </li>
         </ul>
       </div>
